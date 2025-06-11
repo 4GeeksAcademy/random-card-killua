@@ -21,7 +21,10 @@ window.onload = function() {
 
   const cartaDiv = document.getElementById("carta");
   cartaDiv.className = `card ${palo}`;
-  cartaDiv.innerHTML = `${valor}${simbolo}`;
+  cartaDiv.querySelector(".card-value").innerHTML = valor;
+  cartaDiv.querySelector(".top-left").innerHTML = `${simbolo}`;
+  cartaDiv.querySelector(".bottom-right").innerHTML = `${simbolo}`;
+
  }
 
  generarCartaAleatoria();

@@ -18,6 +18,29 @@ body{
     box-shadow: 2px 4px 12px;
 }
 
+.corner {
+  position: absolute;
+  font-size: 34px;
+ 
+}
+
+.top-left {
+  top: 8px;
+  left: 8px;
+}
+.bottom-right {
+  bottom: 8px;
+  right: 8px;
+}
+
+.card-value {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .heart, .diamond {
     color:red
 }
